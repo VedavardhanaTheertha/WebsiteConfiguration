@@ -3,9 +3,7 @@
   "paths": {
     "aiGenerate": "/aigenerate.jpg",
     "chakra": "/chakra.png",
-    "favicon": "/favicon.ico",
     "lordVitthala": "/lord-vitthala.jpeg",
-    "mainLogo": "/main-logo.png",
     "vittala": "/vittala.png",
     "event": "/slide/event.JPG",
     "fb": "/slide/fb.JPG",
@@ -23,9 +21,7 @@
   "aliases": {
     "/aigenerate.jpg": "aiGenerate",
     "/chakra.png": "chakra",
-    "/favicon.ico": "favicon",
     "/lord-vitthala.jpeg": "lordVitthala",
-    "/main-logo.png": "mainLogo",
     "/vittala.png": "vittala",
     "/slide/event.JPG": "event",
     "/slide/fb.JPG": "fb",
