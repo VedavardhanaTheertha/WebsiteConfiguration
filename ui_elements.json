@@ -1,0 +1,10 @@
+{
+  "collections": {
+    "initialVisible": 6,
+    "loadIncrement": 9
+  },
+  "autoScroll": {
+    "pixelsPerSecond": 36,
+    "returnDurationMs": 2200
+  }
+}

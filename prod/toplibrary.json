@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "sevas": [
+      "seva-001-kanike",
+      "seva-003-donations",
+      "seva-000-volunteer-sign-up"
+    ],
+    "album": [
+      "daily-worship",
+      "festivals-and-rathotsava",
+      "guru-and-pravachana"
+    ],
+    "mantra": [
+      "dvadasha-stotra",
+      "vishnu-sahasranama",
+      "krishnashtakam"
+    ],
+    "shastra": [
+      "brahma-sutra-bhashya",
+      "gita-bhashya",
+      "anu-vyakhyana"
+    ],
+    "jnana": [
+      "glossary-of-terms",
+      "ashta-mathas",
+      "paryaya-system"
+    ],
+    "dharma": [
+      "nitya-karma",
+      "ekadashi-vrata",
+      "samskaras"
+    ],
+    "projects": [
+      "matha-gopura-renovation",
+      "vedic-school-expansion",
+      "go-shala-expansion"
+    ],
+    "stories": [
+      "a-life-shaped-by-daily-worship",
+      "service-before-sunrise",
+      "learning-at-the-feet-of-a-teacher"
+    ],
+    "articles": [
+      "meaning-of-paryaya",
+      "day-in-the-sanctum",
+      "feeding-as-worship"
+    ],
+    "symbolism": [
+      "deepa-and-sacred-light",
+      "flowers-as-offering",
+      "shankha-and-chakra"
+    ],
+    "remedies": [
+      "prayer-during-uncertainty",
+      "chanting-for-steadiness",
+      "seva-in-difficult-times"
+    ],
+    "science": [
+      "dvaita-vedanta",
+      "cosmology-in-the-puranas",
+      "ayurveda-and-wellbeing"
+    ],
+    "pilgrim": [
+      "sri-krishna-matha",
+      "ashta-mathas-circuit",
+      "getting-there"
+    ]
+  }
+}
