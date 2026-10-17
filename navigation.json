@@ -1,0 +1,79 @@
+{
+  "menu": [
+    {
+      "key": "home",
+      "href": "/"
+    },
+    {
+      "key": "seva",
+      "href": "/sevas"
+    },
+    {
+      "key": "events",
+      "href": "/events"
+    },
+    {
+      "key": "library",
+      "href": "/library"
+    },
+    {
+      "key": "projects",
+      "href": "/projects"
+    },
+    {
+      "key": "media",
+      "href": "/albums"
+    },
+    {
+      "key": "story",
+      "href": "/story"
+    },
+    {
+      "key": "learn",
+      "href": "/learn"
+    },
+    {
+      "key": "connect",
+      "href": "/connect"
+    }
+  ],
+  "footer": {
+    "policies": [
+      {
+        "key": "terms",
+        "href": "/terms"
+      },
+      {
+        "key": "privacy",
+        "href": "/privacy"
+      },
+      {
+        "key": "refund",
+        "href": "/refund"
+      }
+    ],
+    "social": [
+      {
+        "key": "instagram",
+        "connectId": "instagram"
+      },
+      {
+        "key": "facebook",
+        "connectId": "facebook"
+      },
+      {
+        "key": "youtube",
+        "connectId": "youtube"
+      },
+      {
+        "key": "whatsapp",
+        "connectId": "whatsapp"
+      }
+    ]
+  },
+  "routes": {
+    "home": "/",
+    "panchanga": "/panchanga",
+    "announcement": "/events/mantra-yajna"
+  }
+}

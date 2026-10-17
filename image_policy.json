@@ -1,0 +1,25 @@
+{
+  "unoptimized": true,
+  "remotePatterns": [
+    {
+      "protocol": "https",
+      "hostname": "vedavardhanatheertha.github.io",
+      "pathname": "/**"
+    },
+    {
+      "protocol": "https",
+      "hostname": "shiroormatha.org",
+      "pathname": "/**"
+    },
+    {
+      "protocol": "https",
+      "hostname": "www.shiroormatha.org",
+      "pathname": "/**"
+    },
+    {
+      "protocol": "https",
+      "hostname": "pub-*.r2.dev",
+      "pathname": "/**"
+    }
+  ]
+}

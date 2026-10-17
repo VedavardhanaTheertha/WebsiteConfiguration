@@ -4,7 +4,45 @@
     "loadIncrement": 9
   },
   "autoScroll": {
+    "enabled": true,
     "pixelsPerSecond": 36,
-    "returnDurationMs": 2200
+    "returnDurationMs": 2200,
+    "resumeDelayMs": 1500
+  },
+  "hero": {
+    "autoplay": true,
+    "intervalMs": 4500,
+    "fadeDurationMs": 900,
+    "zoomDurationMs": 7000
+  },
+  "upcomingEvents": {
+    "lookAheadDays": 30,
+    "maxCards": 6
+  },
+  "readingTime": {
+    "wordsPerMinute": 200
+  },
+  "bhaktiReader": {
+    "initialSize": 100,
+    "minSize": 85,
+    "maxSize": 150,
+    "step": 5
+  },
+  "mediaViewer": {
+    "swipeThresholdPx": 50,
+    "videoControlExclusionPx": 56,
+    "wrap": true
+  },
+  "browserDefaults": {
+    "advancedFiltersOpen": false,
+    "lineageView": "list",
+    "eventsUpcomingSort": "earliest",
+    "eventsPastSort": "latest",
+    "albumsSort": "newest"
+  },
+  "interaction": {
+    "dropdownCloseDelayMs": 120,
+    "modalResetDelayMs": 400,
+    "searchPreloadDelayMs": 300
   }
 }

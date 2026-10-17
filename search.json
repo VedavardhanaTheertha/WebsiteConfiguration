@@ -1,0 +1,20 @@
+{
+  "prefix": true,
+  "fuzzyTolerance": 0.2,
+  "fuzzyMinLength": 4,
+  "multiwordOrFallback": true,
+  "profiles": {
+    "bhakti": {
+      "title": 3, "titleKn": 3, "titleEn": 3,
+      "ankita": 2, "ankitaKn": 2, "kruti": 1.5, "krutiKn": 1.5, "searchText": 1
+    },
+    "sevas": { "searchText": 1 },
+    "events": {
+      "titleEn": 3, "titleKn": 3, "categoriesText": 2, "performersText": 1.8,
+      "locationEn": 1.5, "locationKn": 1.5, "tagsText": 1.2, "searchText": 1
+    },
+    "knowledge": { "title": 3, "tags": 2, "summary": 1.5, "status": 1, "searchText": 1 },
+    "mediaAlbums": { "title": 3, "tags": 2, "description": 1 },
+    "mediaGrid": { "title": 2, "detail": 1 }
+  }
+}

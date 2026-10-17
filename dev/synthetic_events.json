@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "maxEvents": null,
+  "dateShift": {
+    "policy": "earliest-to-today"
+  }
+}

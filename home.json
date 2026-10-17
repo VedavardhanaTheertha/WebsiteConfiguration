@@ -1,0 +1,63 @@
+{
+  "top_carousel": [
+    "events.md", "projects.md", "story.md", "history--parampara.md", "albums.md", "sevas.md"
+  ],
+  "icon_carousel": [
+    { "page": "events.md", "icon": "calendar", "tone": "saffron" },
+    { "page": "sevas.md", "icon": "hand-heart", "tone": "green" },
+    { "page": "panchanga.md", "icon": "sparkles", "tone": "amber" },
+    { "page": "library.md", "icon": "book-open", "tone": "rose" },
+    { "page": "albums.md", "icon": "video", "tone": "plum" }
+  ],
+  "bottom_carousel": [
+    "learn.md", "library--bhakti.md", "library--mantra.md", "library--shastra.md",
+    "history--pilgrim-guide.md", "volunteer.md"
+  ],
+  "explore_carousel": [
+    "library--mantra.md", "connect.md", "history--stories.md"
+  ],
+  "home": {
+    "en": {
+      "hero": {
+        "invocation": "॥ ಶ್ರೀಕೃಷ್ಣಾರ್ಪಣಮಸ್ತು ॥",
+        "title": "Shri Shiroor Matha",
+        "subtitle": "Shri Krishna Matha Paryaya · Udupi",
+        "body": "An 800-year living tradition of devotion, Annadaana, and Vedic scholarship — now entering the sacred Paryaya 2026–2028."
+      },
+      "hero_intro": {
+        "title": "Welcome to Shiroor Matha,\na living Madhwa tradition",
+        "cta_label": "Our Mission",
+        "cta_href": "/story",
+        "images": [
+          "@image.krishna", "@image.kraj0615", "@image.shiroorMutt",
+          "@image.kraj0835", "@image.goMatha", "@image.swamiji"
+        ]
+      },
+      "explore_label": "MORE FROM SHIROOR MATHA",
+      "explore_title": "Connect. Explore. Experience.",
+      "guidance_label": "Seeking Answers",
+      "guidance_title": "When life feels heavy"
+    },
+    "kn": {
+      "hero": {
+        "invocation": "॥ ಶ್ರೀಕೃಷ್ಣಾರ್ಪಣಮಸ್ತು ॥",
+        "title": "ಶ್ರೀ ಶಿರೂರು ಮಠ",
+        "subtitle": "ಶ್ರೀ ಕೃಷ್ಣ ಮಠ ಪರ್ಯಾಯ · ಉಡುಪಿ",
+        "body": "800 ವರ್ಷಗಳ ಭಕ್ತಿ, ಅನ್ನದಾನ ಮತ್ತು ವೈದಿಕ ವಿದ್ಯೆಯ ಜೀವಂತ ಪರಂಪರೆ — ಈಗ ಪವಿತ್ರ ಪರ್ಯಾಯ 2026–2028ಕ್ಕೆ ಪ್ರವೇಶಿಸುತ್ತಿದೆ."
+      },
+      "hero_intro": {
+        "title": "ಶಿರೂರು ಮಠಕ್ಕೆ ಸ್ವಾಗತ,\nಜೀವಂತ ಮಾಧ್ವ ಪರಂಪರೆ",
+        "cta_label": "ನಮ್ಮ ಧ್ಯೇಯ",
+        "cta_href": "/story",
+        "images": [
+          "@image.krishna", "@image.kraj0615", "@image.shiroorMutt",
+          "@image.kraj0835", "@image.goMatha", "@image.swamiji"
+        ]
+      },
+      "explore_label": "ಶಿರೂರು ಮಠದಿಂದ ಇನ್ನಷ್ಟು",
+      "explore_title": "ಸಂಪರ್ಕಿಸಿ. ಅನ್ವೇಷಿಸಿ. ಅನುಭವಿಸಿ.",
+      "guidance_label": "ಉತ್ತರ ಹುಡುಕುತ್ತಿದ್ದೀರಾ",
+      "guidance_title": "ಜೀವನ ಭಾರವೆನಿಸಿದಾಗ"
+    }
+  }
+}

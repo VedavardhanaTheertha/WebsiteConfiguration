@@ -1,0 +1,13 @@
+{
+  "mantra": { "order": 1, "image": "@image.krishna" },
+  "shastra": { "order": 2, "image": "@image.swamiji" },
+  "jnana": { "order": 3, "image": "@image.shiroorMutt" },
+  "dharma": { "order": 4, "image": "@image.kraj0615" },
+  "projects": { "order": 5, "image": "@image.gopura" },
+  "stories": { "order": 6, "image": "@image.swamiji" },
+  "articles": { "order": 7, "image": "@image.shiroorMutt" },
+  "symbolism": { "order": 8, "image": "@image.krishna" },
+  "remedies": { "order": 9, "image": "@image.swamiji" },
+  "science": { "order": 10, "image": "@image.madhwacharyaNew" },
+  "pilgrim": { "order": 11, "image": "@image.shiroorMutt" }
+}

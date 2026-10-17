@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "delayMs": 1800,
+  "pages": [],
+  "startsOn": null,
+  "endsOn": null,
+  "dismissal": "session"
+}
