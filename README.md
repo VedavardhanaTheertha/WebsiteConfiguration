@@ -26,9 +26,9 @@ website's `content/languages/*.json`. Do not add duplicate editorial catalogs he
 | `knowledge_sections.json` | Supported knowledge section order and default images |
 | `dev/synthetic_events.json` | Optional development/local synthetic event copies |
 
-Original hero groups remain in `library/hero/{dev,prod}/*.hero.json`, not this
-repository. Preserve their selection and ordering; local uses the development group.
-Learn's labels, subjects, order, and suggested paths remain in `library/learn/`
+Environment-specific hero groups live in `library/hero/{dev,prod}/*.hero.json`.
+Preserve their selection and ordering; local uses the development group.
+Learn's labels, subjects, order, and suggested paths live in `library/learn/`
 Markdown. Guru ordering comes from numeric canonical Markdown filename prefixes.
 
 ## Homepage
@@ -92,22 +92,17 @@ transitions use configured defaults rather than a second set of constants.
 
 ## Official actions
 
-`connectId` references resolve to canonical `library/connect/*.md` records.
+`public_actions.json` owns action destinations. Its `connectId` references resolve
+to canonical `library/connect/*.md` records.
 Destinations must be verified and valid for the intended action. The official
 WhatsApp destination is a broadcast channel, not a private-message inbox; do not use
 it as a prefilled enquiry destination.
 
-Current official external destinations:
-
-- Volunteer: `https://volunteer.shiroormatha.org/`
-- Mantra Lekhana: `https://kmly.shiroormatha.org/`
-- Monetary offering: `https://pay.shiroormatha.org/?entity_id=3&event_id=4&seva_id=3`
-- Support: `mailto:support@shiroormatha.org`
-
 Preserve the complete monetary query string. The payment QR is generated at build
-time from the same configured destination. The preserved material catalog has one
-authority in `library/donations/pages/donation.md`. No credentials belong in public
-settings, and routing to a service is not payment processing or delivery confirmation.
+time from the same configured destination. Material enquiries use the localized
+catalog in `library/donations/pages/donation.md` and the configured email destination.
+External services handle payment processing and official communication.
+Do not imply message delivery or put credentials in public settings.
 
 ## Announcements
 
@@ -123,8 +118,8 @@ settings, and routing to a service is not payment processing or delivery confirm
 Navigation restarts the appearance delay; open pages respond to schedule boundaries.
 Popup prose, associated page copy, and metadata belong to the canonical announcement
 Markdown. Its destination comes from `navigation.json`. For the Yajna progress
-snapshot, update its count and `pages.local_copy.yajna_as_of_date` together
-(initial snapshot: **2026-07-01**). The generator requires a real, shared ISO date;
+snapshot, update its count and `pages.local_copy.yajna_as_of_date` together.
+The generator requires a real, shared ISO date;
 it never substitutes the build date.
 
 ## Search and collections

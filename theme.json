@@ -41,6 +41,8 @@
     "--color-danger-50": "#f8e7e2",
     "--color-info-500": "#2b6cb0",
     "--color-info-50": "#e7eef7",
+    "--color-plum-50": "#ece7f4",
+    "--color-plum-500": "#6d5a94",
     "--color-text-primary": "var(--color-ink-800)",
     "--color-text-secondary": "var(--color-ink-600)",
     "--color-text-muted": "var(--color-ink-400)",
