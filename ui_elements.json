@@ -12,8 +12,7 @@
   "hero": {
     "autoplay": true,
     "intervalMs": 4500,
-    "fadeDurationMs": 900,
-    "zoomDurationMs": 7000
+    "fadeDurationMs": 900
   },
   "upcomingEvents": {
     "lookAheadDays": 30,
@@ -44,5 +43,10 @@
     "dropdownCloseDelayMs": 120,
     "modalResetDelayMs": 400,
     "searchPreloadDelayMs": 300
+  },
+  "presentation": {
+    "imageTreatment": false,
+    "headerActions": false,
+    "topSubscribe": false
   }
 }
