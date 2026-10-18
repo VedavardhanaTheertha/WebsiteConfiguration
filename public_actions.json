@@ -1,7 +1,6 @@
 {
   "headerWhatsApp": { "connectId": "whatsapp" },
   "subscribe": { "connectId": "youtube" },
-  "donationWhatsApp": { "connectId": "whatsapp" },
   "donationEmail": { "connectId": "email" },
   "payment": { "url": "https://pay.shiroormatha.org/?entity_id=3&event_id=4&seva_id=3" },
   "volunteer": { "url": "https://volunteer.shiroormatha.org/" },
