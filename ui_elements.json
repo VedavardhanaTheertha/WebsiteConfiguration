@@ -7,7 +7,9 @@
     "enabled": true,
     "pixelsPerSecond": 36,
     "returnDurationMs": 2200,
-    "resumeDelayMs": 1500
+    "resumeDelayMs": 1500,
+    "holdDurationMs": 3000,
+    "slideDurationMs": 800
   },
   "hero": {
     "autoplay": true,
