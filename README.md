@@ -18,6 +18,7 @@ website's `content/languages/*.json`. Do not add duplicate editorial catalogs he
 | `{dev,prod}/images.json` | Stable image aliases and media-directory base |
 | `{dev,prod}/toplibrary.json` | Featured collection item IDs |
 | `image_policy.json` | Framework image optimization and allowed remote patterns |
+| `common.json` | Shared webpage presentation defaults (common fixed unscrollable background image) |
 | `theme.json` | Shared CSS theme tokens |
 | `ui_elements.json` | Reader/viewer behavior, defaults, timing, pagination, scrolling |
 | `public_actions.json` | Public action destinations or official channel references |
@@ -48,6 +49,18 @@ Do not configure `remidies_carousel` here. Content generation chooses three dist
 articles from `library/remedies/` and shares that selection across languages and
 content variants. Keep at least four eligible remedy articles. The existing key
 spelling is a data contract.
+
+## Common presentation
+
+`common.json` configures shared presentation properties across all webpages:
+
+- `background.backgroundImage`: Valid `@image.*` alias, `@<key>` alias, or image URL for the common background image.
+- `background.opacity`: Number between 0 and 1 for background transparency (default `0.12`).
+- `background.size`: CSS background-size (e.g. `cover`, `contain`; default `cover`).
+- `background.repeat`: CSS background-repeat (e.g. `no-repeat`; default `no-repeat`).
+- `background.position`: CSS background-position (default `center`).
+
+This background image renders with fixed viewport positioning behind the main content area, remaining unscrollable across all pages.
 
 ## Image resolution and theme
 

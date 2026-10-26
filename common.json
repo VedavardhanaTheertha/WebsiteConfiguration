@@ -1,0 +1,8 @@
+{
+  "background": {
+    "backgroundImage": "@chakra",
+    "opacity": 0.12,
+    "size": "cover",
+    "repeat": "no-repeat"
+  }
+}
