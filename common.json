@@ -4,5 +4,24 @@
     "opacity": 0.12,
     "size": "cover",
     "repeat": "no-repeat"
+  },
+  "fontFamily": {
+    "display": "var(--font-marcellus), 'Cormorant Garamond', Georgia, 'Times New Roman', serif",
+    "body": "var(--font-montserrat), system-ui, -apple-system, 'Segoe UI', sans-serif",
+    "sanskrit": "var(--font-noto-devanagari), var(--font-marcellus), serif",
+    "kannada": "var(--font-noto-kannada), var(--font-montserrat), sans-serif",
+    "mono": "ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace"
+  },
+  "fontSize": {
+    "micro": "12px",
+    "caption": "13px",
+    "ui": "14px",
+    "nav": "15px",
+    "body": "16px",
+    "badge": "12px",
+    "formLabel": "13px",
+    "formInput": "16px",
+    "actionButton": "14px",
+    "meta": "13px"
   }
 }

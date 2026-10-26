@@ -18,8 +18,8 @@ website's `content/languages/*.json`. Do not add duplicate editorial catalogs he
 | `{dev,prod}/images.json` | Stable image aliases and media-directory base |
 | `{dev,prod}/toplibrary.json` | Featured collection item IDs |
 | `image_policy.json` | Framework image optimization and allowed remote patterns |
-| `common.json` | Shared webpage presentation defaults (common fixed unscrollable background image) |
-| `theme.json` | Shared CSS theme tokens |
+| `common.json` | Shared webpage presentation defaults (common fixed unscrollable background image, font families, and uniform font size scale) |
+| `theme.json` | Shared CSS theme tokens (colors, spacing, radiuses, shadows) |
 | `ui_elements.json` | Reader/viewer behavior, defaults, timing, pagination, scrolling |
 | `public_actions.json` | Public action destinations or official channel references |
 | `announcements.json` | Popup eligibility, schedule, delay, and dismissal |
@@ -54,6 +54,8 @@ spelling is a data contract.
 
 `common.json` configures shared presentation properties across all webpages:
 
+### Background
+
 - `background.backgroundImage`: Valid `@image.*` alias, `@<key>` alias, or image URL for the common background image.
 - `background.opacity`: Number between 0 and 1 for background transparency (default `0.12`).
 - `background.size`: CSS background-size (e.g. `cover`, `contain`; default `cover`).
@@ -61,6 +63,31 @@ spelling is a data contract.
 - `background.position`: CSS background-position (default `center`).
 
 This background image renders with fixed viewport positioning behind the main content area, remaining unscrollable across all pages.
+
+### Font Families
+
+- `fontFamily.display`: Display serif font family stack for headings and titles.
+- `fontFamily.body`: Body sans-serif font family stack for reading copy.
+- `fontFamily.sanskrit`: Traditional Sanskrit font family stack.
+- `fontFamily.kannada`: Kannada font family stack.
+- `fontFamily.mono`: Monospace font family stack.
+
+The root layout injects these as `--font-*` CSS custom properties.
+
+### Font Sizes
+
+- `fontSize.micro`: Micro elements such as badges, tags, eyebrows, tooltips (default `12px`).
+- `fontSize.caption`: Secondary hints, timestamps, compact descriptions (default `13px`).
+- `fontSize.ui`: Submenus, compact controls, filters, dropdown items (default `14px`).
+- `fontSize.nav`: Navigation links, menu items (default `15px`).
+- `fontSize.body`: Standard body text, descriptions (default `16px`).
+- `fontSize.badge`: Category tags and status badges (default `12px`).
+- `fontSize.formLabel`: Form field labels (default `13px`).
+- `fontSize.formInput`: Form input fields (default `16px`).
+- `fontSize.actionButton`: Compact action and CTA buttons (default `14px`).
+- `fontSize.meta`: Metadata keys, dates, and counts (default `13px`).
+
+Values must be valid CSS lengths (`px`, `rem`, `em`). The root layout injects these as `--text-*` CSS custom properties consumed by utility classes in `src/app/globals.css`.
 
 ## Image resolution and theme
 
@@ -77,7 +104,7 @@ consistent with authored image URLs. The framework configuration loads this poli
 instead of maintaining a second list.
 
 `theme.json` has one `tokens` object with CSS custom properties in the `--color-*`,
-`--font-*`, `--spacing-*`, `--radius-*`, and `--shadow-*` namespaces. Values are CSS
+`--spacing-*`, `--radius-*`, and `--shadow-*` namespaces. Values are CSS
 token strings; unknown fields, invalid values, unresolved references, and cycles fail
 validation. The generator writes `src/gen/settings/theme.css`; do not edit generated
 CSS. Responsive/layout rules remain website code.
