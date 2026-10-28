@@ -5,6 +5,10 @@
       "href": "/"
     },
     {
+      "key": "story",
+      "href": "/story"
+    },
+    {
       "key": "seva",
       "href": "/sevas"
     },
@@ -23,10 +27,6 @@
     {
       "key": "media",
       "href": "/albums"
-    },
-    {
-      "key": "story",
-      "href": "/story"
     },
     {
       "key": "learn",

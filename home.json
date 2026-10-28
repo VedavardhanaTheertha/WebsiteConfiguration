@@ -3,11 +3,11 @@
     "events.md", "projects.md", "story.md", "history--parampara.md", "albums.md", "sevas.md"
   ],
   "icon_carousel": [
-    { "page": "events.md", "icon": "calendar", "tone": "saffron" },
-    { "page": "sevas.md", "icon": "hand-heart", "tone": "green" },
-    { "page": "panchanga.md", "icon": "sparkles", "tone": "amber" },
-    { "page": "library.md", "icon": "book-open", "tone": "rose" },
-    { "page": "albums.md", "icon": "video", "tone": "plum" }
+    { "page": "home.md", "icon": "home", "tone": "saffron" },
+    { "page": "volunteer.md", "icon": "users", "tone": "green" },
+    { "page": "krishna-mantra-yajna.md", "icon": "sparkles", "tone": "amber" },
+    { "page": "events.md", "icon": "calendar", "tone": "rose" },
+    { "page": "sevas.md", "icon": "hand-heart", "tone": "plum" }
   ],
   "bottom_carousel": [
     "learn.md", "library--bhakti.md", "library--mantra.md", "library--shastra.md",
