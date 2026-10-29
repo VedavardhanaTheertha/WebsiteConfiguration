@@ -1,0 +1,11 @@
+{
+  "recent": {
+    "count": 3
+  },
+  "top_library": {
+    "count": 3,
+    "recency_weight": 0.5,
+    "image_count_weight": 0.5
+  }
+}
+
