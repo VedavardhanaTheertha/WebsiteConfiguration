@@ -47,7 +47,6 @@
     "searchPreloadDelayMs": 300
   },
   "layout": {
-    "adaptiveHero": false,
     "featuredTiles": false,
     "sectionHeaders": false,
     "layoutProfiles": false,
@@ -60,8 +59,6 @@
     "imageTreatment": false,
     "imageBackedTiles": false,
     "tileOverlayOpacity": 40,
-    "tileCornerRadius": 20,
-    "headerActions": false,
-    "topSubscribe": false
+    "tileCornerRadius": 20
   }
 }
