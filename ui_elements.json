@@ -7,9 +7,7 @@
     "enabled": true,
     "pixelsPerSecond": 36,
     "returnDurationMs": 2200,
-    "resumeDelayMs": 1500,
-    "holdDurationMs": 3000,
-    "slideDurationMs": 800
+    "resumeDelayMs": 1500
   },
   "hero": {
     "autoplay": true,
@@ -52,8 +50,7 @@
     "layoutProfiles": false,
     "compactCollections": false,
     "tileInformation": false,
-    "carouselNavigation": false,
-    "centeredCarousel": false
+    "carouselNavigation": false
   },
   "presentation": {
     "imageTreatment": false,
