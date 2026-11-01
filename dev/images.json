@@ -11,7 +11,12 @@
     "krishna": "/slide/krishna.jpg",
     "madhwacharyaNew": "/slide/Madhwacharya-new.jpg",
     "shiroorMutt": "/slide/shiroor-mutt.jpg",
-    "swamiji": "/slide/swamiji.jpg"
+    "swamiji": "/slide/swamiji.jpg",
+    "mantraNada": "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/mantra-nada.webp",
+    "shastraVidya": "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/shastra-vidya.webp",
+    "bhaktiGana": "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/bhakti-gana.webp",
+    "jnanaKosha": "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/jnana-kosha.webp",
+    "dharmaVidhi": "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/dharma-vidhi.webp"
   },
   "aliases": {
     "/chakra.png": "chakra",
@@ -26,6 +31,11 @@
     "/slide/Madhwacharya-new.jpg": "madhwacharyaNew",
     "/shiroor-mutt.jpg": "shiroorMutt",
     "/slide/shiroor-mutt.jpg": "shiroorMutt",
-    "/slide/swamiji.jpg": "swamiji"
+    "/slide/swamiji.jpg": "swamiji",
+    "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/mantra-nada.webp": "mantraNada",
+    "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/shastra-vidya.webp": "shastraVidya",
+    "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/bhakti-gana.webp": "bhaktiGana",
+    "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/jnana-kosha.webp": "jnanaKosha",
+    "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/dharma-vidhi.webp": "dharmaVidhi"
   }
 }
