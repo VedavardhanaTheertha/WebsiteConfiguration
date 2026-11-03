@@ -3,11 +3,6 @@
   "remotePatterns": [
     {
       "protocol": "https",
-      "hostname": "vedavardhanatheertha.github.io",
-      "pathname": "/**"
-    },
-    {
-      "protocol": "https",
       "hostname": "shiroormatha.org",
       "pathname": "/**"
     },

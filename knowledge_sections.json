@@ -1,46 +1,35 @@
 {
   "mantra": {
-    "order": 1,
-    "image": "@image.mantraNada"
+    "order": 1
   },
   "shastra": {
-    "order": 2,
-    "image": "@image.shastraVidya"
+    "order": 2
   },
   "jnana": {
-    "order": 3,
-    "image": "@image.jnanaKosha"
+    "order": 3
   },
   "dharma": {
-    "order": 4,
-    "image": "@image.dharmaVidhi"
+    "order": 4
   },
   "projects": {
-    "order": 5,
-    "image": "@image.gopura"
+    "order": 5
   },
   "stories": {
-    "order": 6,
-    "image": "@image.swamiji"
+    "order": 6
   },
   "articles": {
-    "order": 7,
-    "image": "@image.shiroorMutt"
+    "order": 7
   },
   "symbolism": {
-    "order": 8,
-    "image": "@image.krishna"
+    "order": 8
   },
   "remedies": {
-    "order": 9,
-    "image": "@image.swamiji"
+    "order": 9
   },
   "science": {
-    "order": 10,
-    "image": "@image.madhwacharyaNew"
+    "order": 10
   },
   "pilgrim": {
-    "order": 11,
-    "image": "@image.shiroorMutt"
+    "order": 11
   }
 }

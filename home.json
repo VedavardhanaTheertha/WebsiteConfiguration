@@ -29,8 +29,12 @@
         "cta_label": "Our Mission",
         "cta_href": "/story",
         "images": [
-          "@image.krishna", "@image.kraj0615", "@image.shiroorMutt",
-          "@image.kraj0835", "@image.goMatha", "@image.swamiji"
+          "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/sacred-alankara-sri-krishna.avif",
+          "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/012-annadana-for-one-day.avif",
+          "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/shiroor-matha-architecture.avif",
+          "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/festival-rathotsava-seva.avif",
+          "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/go-shala-expansion.avif",
+          "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/swamiji.avif"
         ]
       },
       "explore_label": "MORE FROM SHIROOR MATHA",
@@ -50,8 +54,12 @@
         "cta_label": "ನಮ್ಮ ಧ್ಯೇಯ",
         "cta_href": "/story",
         "images": [
-          "@image.krishna", "@image.kraj0615", "@image.shiroorMutt",
-          "@image.kraj0835", "@image.goMatha", "@image.swamiji"
+          "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/sacred-alankara-sri-krishna.avif",
+          "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/012-annadana-for-one-day.avif",
+          "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/shiroor-matha-architecture.avif",
+          "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/festival-rathotsava-seva.avif",
+          "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/go-shala-expansion.avif",
+          "https://pub-0b8a6620d6eb460aaa020636cb2c7784.r2.dev/swamiji.avif"
         ]
       },
       "explore_label": "ಶಿರೂರು ಮಠದಿಂದ ಇನ್ನಷ್ಟು",

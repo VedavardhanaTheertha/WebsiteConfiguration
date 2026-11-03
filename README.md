@@ -15,8 +15,7 @@ website's `content/languages/*.json`. Do not add duplicate editorial catalogs he
 |---|---|
 | `home.json` | Homepage copy and four curated page-reference lists |
 | `navigation.json` | Menu order/routes, footer policy destinations, social `connectId` references, utility routes |
-| `{dev,prod}/images.json` | Stable image aliases and media-directory base |
-| `{dev,prod}/toplibrary.json` | Featured collection item IDs |
+| `toplibrary.json` | Featured collection item IDs |
 | `image_policy.json` | Framework image optimization and allowed remote patterns |
 | `common.json` | Shared webpage presentation defaults (common fixed unscrollable background image, font families, and uniform font size scale) |
 | `theme.json` | Shared CSS theme tokens (colors, spacing, radiuses, shadows) |
@@ -24,11 +23,10 @@ website's `content/languages/*.json`. Do not add duplicate editorial catalogs he
 | `public_actions.json` | Public action destinations or official channel references |
 | `announcements.json` | Popup eligibility, schedule, delay, and dismissal |
 | `search.json` | Matching behavior and collection field weights |
-| `knowledge_sections.json` | Supported knowledge section order and default images |
+| `knowledge_sections.json` | Supported knowledge section order (section cover images live in `library/pages/*.md`) |
 | `dev/synthetic_events.json` | Optional development/local synthetic event copies |
 
-Environment-specific hero groups live in `library/hero/{dev,prod}/*.hero.json`.
-Preserve their selection and ordering; local uses the development group.
+Hero configuration lives in `library/hero/default.hero.md`.
 Learn's labels, subjects, order, and suggested paths live in `library/learn/`
 Markdown. Guru ordering comes from numeric canonical Markdown filename prefixes.
 
@@ -171,7 +169,7 @@ OR only if the primary AND query finds nothing. Field-weight `profiles` cover
 profiles/fields fail validation. Generated and runtime indexes use the same settings.
 
 `knowledge_sections.json` must include every supported section ID exactly once with
-a unique positive `order` and valid `@image.*` reference defined in both image maps.
+a unique positive `order`. Section cover images are defined in their corresponding `library/pages/*.md` page-reference records.
 IDs/routes remain website code; articles remain topic Markdown.
 
 Synthetic events apply only to development/local. `enabled` controls copies,
