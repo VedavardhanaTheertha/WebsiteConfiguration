@@ -18,10 +18,8 @@
     "lookAheadDays": 30,
     "maxCards": 6
   },
-  "readingTime": {
-    "wordsPerMinute": 200
-  },
-  "bhaktiReader": {
+  "reading": {
+    "wordsPerMinute": 200,
     "initialSize": 100,
     "minSize": 85,
     "maxSize": 150,
@@ -44,18 +42,9 @@
     "modalResetDelayMs": 400,
     "searchPreloadDelayMs": 300
   },
-  "layout": {
-    "featuredTiles": false,
-    "sectionHeaders": false,
-    "layoutProfiles": false,
-    "compactCollections": false,
-    "tileInformation": false,
-    "carouselNavigation": false
-  },
   "presentation": {
-    "imageTreatment": false,
-    "imageBackedTiles": false,
     "tileOverlayOpacity": 40,
-    "tileCornerRadius": 20
+    "tileCornerRadius": 20,
+    "tileMinHeight": 360
   }
 }
