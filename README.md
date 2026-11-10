@@ -22,11 +22,13 @@ website's `content/languages/*.json`. Do not add duplicate editorial catalogs he
 | `ui_elements.json` | Reader/viewer behavior, defaults, timing, pagination, scrolling |
 | `public_actions.json` | Public action destinations or official channel references |
 | `announcements.json` | Popup eligibility, schedule, delay, and dismissal |
+| `hero.json` | Array of `library/hero/*.md` slide references defining hero carousel order |
 | `search.json` | Matching behavior and collection field weights |
 | `knowledge_sections.json` | Supported knowledge section order (section cover images live in `library/pages/*.md`) |
 | `dev/synthetic_events.json` | Optional development/local synthetic event copies |
 
-Hero configuration lives in `library/hero/default.hero.md`.
+Hero carousel presentation order lives in `settings/hero.json`, referencing
+individual slide files in `library/hero/*.md`.
 Learn's labels, subjects, order, and suggested paths live in `library/learn/`
 Markdown. Guru ordering comes from numeric canonical Markdown filename prefixes.
 
