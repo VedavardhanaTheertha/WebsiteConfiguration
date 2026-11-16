@@ -18,16 +18,16 @@
   ],
   "home": {
     "en": {
-      "explore_label": "MORE FROM SHIROOR MATHA",
-      "explore_title": "Connect. Explore. Experience.",
-      "guidance_label": "Seeking Answers",
-      "guidance_title": "When life feels heavy"
+      "explore_label": "Explore Shiroor Matha",
+      "explore_title": "Connect and Experience",
+      "guidance_label": "Seeking Guidance",
+      "guidance_title": "When life feels overwhelming"
     },
     "kn": {
-      "explore_label": "ಶಿರೂರು ಮಠದಿಂದ ಇನ್ನಷ್ಟು",
-      "explore_title": "ಸಂಪರ್ಕಿಸಿ. ಅನ್ವೇಷಿಸಿ. ಅನುಭವಿಸಿ.",
-      "guidance_label": "ಉತ್ತರ ಹುಡುಕುತ್ತಿದ್ದೀರಾ",
-      "guidance_title": "ಜೀವನ ಭಾರವೆನಿಸಿದಾಗ"
+      "explore_label": "ಶಿರೂರು ಮಠದ ಇನ್ನಷ್ಟು ವಿವರಗಳು",
+      "explore_title": "ಭಾಗಿಯಾಗಿ ಮತ್ತು ಅನುಭವಿಸಿರಿ",
+      "guidance_label": "ಮಾರ್ಗದರ್ಶನದ ಅನ್ವೇಷಣೆ",
+      "guidance_title": "ಬದುಕು ಭಾರವೆನಿಸಿದಾಗ"
     }
   }
 }

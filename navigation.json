@@ -68,12 +68,16 @@
       {
         "key": "whatsapp",
         "connectId": "whatsapp"
+      },
+      {
+        "key": "email",
+        "connectId": "email"
       }
     ]
   },
   "routes": {
     "home": "/",
     "panchanga": "/panchanga",
-    "announcement": "/events/mantra-yajna"
+    "announcement": "/mantra-yajna"
   }
 }
