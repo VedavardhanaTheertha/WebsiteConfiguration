@@ -1,19 +1,65 @@
 {
-  "top_carousel": [
-    "events.md", "projects.md", "story.md", "history--parampara.md", "albums.md", "sevas.md"
+  "$comment": "Homepage freshness configuration: controls hero presentation, top/bottom/explore/guidance carousels, slot pinning, and date overrides.",
+  "filter": [
+    "refund.md",
+    "terms.md",
+    "privacy.md"
   ],
+  "hero": {
+    "$comment": "Hero banner slides configuration: auto-pools from library/hero/*.md, supporting slot pinning and date overrides.",
+    "count": 8,
+    "pinned": [
+      {
+        "$comment": "Pin the sacred alankara slide at first position (slot 0)",
+        "index": 0,
+        "item": "sacred-alankara-sri-krishna.md"
+      }
+    ],
+    "overrides": []
+  },
+  "top_carousel": {
+    "$comment": "Top rail carousel: auto-pools from library/pages/*.md with slot pinning and holiday overrides.",
+    "count": 8,
+    "pinned": [
+      { "index": 0, "item": "albums.md", "$comment": "Featured media albums" },
+      { "index": 1, "item": "krishna-mantra-yajna.md", "$comment": "Mantra yajna initiative" },
+      { "index": 2, "item": "volunteer.md", "$comment": "Volunteer sign-up" }
+    ],
+    "overrides": [
+      {
+        "$comment": "Special event override for Karthika Deepotsava / festival window",
+        "date": "2026-11-21",
+        "pinned": [
+          { "index": 0, "item": "sevas.md", "$comment": "Highlight sevas during deepotsava" },
+          { "index": 1, "item": "volunteer.md" },
+          { "index": 2, "item": "krishna-mantra-yajna.md" }
+        ]
+      }
+    ]
+  },
   "icon_carousel": [
-    { "page": "home.md", "icon": "home", "tone": "saffron" },
-    { "page": "volunteer.md", "icon": "users", "tone": "saffron" },
+    { "page": "home.md", "icon": "home", "tone": "saffron", "$comment": "Home quick link" },
+    { "page": "volunteer.md", "icon": "users", "tone": "saffron", "$comment": "Volunteer quick link" },
     { "page": "krishna-mantra-yajna.md", "icon": "sparkles", "tone": "saffron" },
     { "page": "events.md", "icon": "calendar", "tone": "saffron" },
     { "page": "sevas.md", "icon": "hand-heart", "tone": "saffron" }
   ],
-  "bottom_carousel": [
-    "learn.md", "library--bhakti.md", "library--mantra.md", "library--shastra.md",
-    "library--pilgrim-guide.md", "volunteer.md"
-  ],
-  "explore_carousel": [
-    "library--mantra.md", "connect.md", "library--stories.md"
-  ]
+  "bottom_carousel": {
+    "$comment": "Bottom rail carousel: auto-pools remaining pages from library/pages/*.md (excluding top_carousel pages to prevent duplicates).",
+    "count": 6,
+    "pinned": [],
+    "overrides": []
+  },
+  "explore_carousel": {
+    "$comment": "Explore carousel: dynamically rotates across all library collections including Bhakti/Dasasahitya, Dharma, Shastra, and Stories.",
+    "count": 6,
+    "pinned": [],
+    "overrides": []
+  },
+  "guidance_carousel": {
+    "$comment": "Guidance carousel: dynamically rotates through all Sevas and Spiritual Remedies.",
+    "count": 6,
+    "pinned": [],
+    "overrides": []
+  }
 }

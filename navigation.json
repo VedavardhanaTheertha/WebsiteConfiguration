@@ -1,4 +1,5 @@
 {
+  "$comment": "Navigation hierarchy: main menu entries, footer policy documents, and social connection references.",
   "menu": [
     {
       "key": "home",

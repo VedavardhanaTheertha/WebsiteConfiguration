@@ -1,4 +1,5 @@
 {
+  "$comment": "Knowledge section ordering: determines presentation sequence of library knowledge topics.",
   "mantra": {
     "order": 1
   },

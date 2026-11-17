@@ -1,4 +1,5 @@
 {
+  "$comment": "External public action endpoints: payment gateway, volunteer registration, WhatsApp, and email targets.",
   "headerWhatsApp": { "connectId": "whatsapp" },
   "subscribe": { "connectId": "youtube" },
   "donationEmail": { "connectId": "email" },

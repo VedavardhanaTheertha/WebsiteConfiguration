@@ -15,19 +15,18 @@ website's `content/languages/*.json`. Do not add duplicate editorial catalogs he
 |---|---|
 | `home.json` | Homepage copy and four curated page-reference lists |
 | `navigation.json` | Menu order/routes, footer policy destinations, social `connectId` references, utility routes |
-| `toplibrary.json` | Featured collection item IDs |
 | `image_policy.json` | Framework image optimization and allowed remote patterns |
 | `common.json` | Shared webpage presentation defaults (common fixed unscrollable background image, font families, and uniform font size scale) |
 | `theme.json` | Shared CSS theme tokens (colors, spacing, radiuses, shadows) |
 | `ui_elements.json` | Reader/viewer behavior, defaults, timing, pagination, scrolling |
 | `public_actions.json` | Public action destinations or official channel references |
 | `announcements.json` | Popup eligibility, schedule, delay, and dismissal |
-| `hero.json` | Array of `library/hero/*.md` slide references defining hero carousel order |
+| `home.json` | Carousel, slide ordering, pinning, overrides, and slot configurations |
 | `search.json` | Matching behavior and collection field weights |
 | `knowledge_sections.json` | Supported knowledge section order (section cover images live in `library/pages/*.md`) |
 | `dev/synthetic_events.json` | Optional development/local synthetic event copies |
 
-Hero carousel presentation order lives in `settings/hero.json`, referencing
+Hero carousel presentation order lives in `settings/home.json` under `"hero"`, referencing
 individual slide files in `library/hero/*.md`.
 Learn's labels, subjects, order, and suggested paths live in `library/learn/`
 Markdown. Guru ordering comes from numeric canonical Markdown filename prefixes.
@@ -45,10 +44,8 @@ Filenames resolve under `library/pages/`. Card titles, descriptions, images,
 destinations, page types, and footnotes belong in those multilingual Markdown
 records, not duplicated in settings.
 
-Do not configure `remidies_carousel` here. Content generation chooses three distinct
-articles from `library/remedies/` and shares that selection across languages and
-content variants. Keep at least four eligible remedy articles. The existing key
-spelling is a data contract.
+`guidance_carousel` can be configured in `home.json` for custom count, calendar overrides,
+and pinned items. By default it dynamically selects enabled items from `library/sevas/` and `library/remedies/`.
 
 ## Common presentation
 

@@ -1,4 +1,5 @@
 {
+  "$comment": "Design system tokens: CSS variables for brand colors, typography, surfaces, and states.",
   "tokens": {
     "--color-saffron-50": "#fff3e3",
     "--color-saffron-100": "#ffe1c0",
