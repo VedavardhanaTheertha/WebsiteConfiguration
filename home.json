@@ -3,7 +3,8 @@
   "filter": [
     "refund.md",
     "terms.md",
-    "privacy.md"
+    "privacy.md",
+    "home.md"
   ],
   "hero": {
     "$comment": "Hero banner slides configuration: auto-pools from library/hero/*.md, supporting slot pinning and date overrides.",
