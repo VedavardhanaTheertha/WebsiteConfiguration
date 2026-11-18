@@ -20,7 +20,7 @@
   },
   "top_carousel": {
     "$comment": "Top rail carousel: auto-pools from library/pages/*.md with slot pinning and holiday overrides.",
-    "count": 8,
+    "count": 6,
     "pinned": [
       { "index": 0, "item": "albums.md", "$comment": "Featured media albums" },
       { "index": 1, "item": "krishna-mantra-yajna.md", "$comment": "Mantra yajna initiative" },
