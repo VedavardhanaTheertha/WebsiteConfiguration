@@ -1,0 +1,17 @@
+name: Dispatch Submodule Update to MainWebsiteUI
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send repository dispatch to MainWebsiteUI
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.SUBMODULE_SYNC_PAT || secrets.GITHUB_TOKEN }}
+          repository: VedavardhanaTheertha/MainWebsiteUI
+          event-type: submodule-updated
