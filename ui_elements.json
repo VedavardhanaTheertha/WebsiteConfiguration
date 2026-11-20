@@ -12,7 +12,9 @@
   "hero": {
     "autoplay": true,
     "intervalMs": 4500,
-    "fadeDurationMs": 900
+    "fadeDurationMs": 900,
+    "heightMobilePx": 400,
+    "heightDesktopPx": 600
   },
   "upcomingEvents": {
     "lookAheadDays": 30,
@@ -40,11 +42,11 @@
   "interaction": {
     "dropdownCloseDelayMs": 120,
     "modalResetDelayMs": 400,
-    "searchPreloadDelayMs": 300
+    "searchPreloadDelayMs": 600
   },
   "presentation": {
     "tileOverlayOpacity": 40,
     "tileCornerRadius": 20,
-    "tileMinHeight": 360
+    "tileMinHeight": 300
   }
 }
