@@ -40,10 +40,10 @@
   },
   "icon_carousel": [
     { "page": "home.md", "icon": "home", "tone": "saffron", "$comment": "Home quick link" },
-    { "page": "volunteer.md", "icon": "users", "tone": "saffron", "$comment": "Volunteer quick link" },
-    { "page": "krishna-mantra-yajna.md", "icon": "sparkles", "tone": "saffron" },
-    { "page": "events.md", "icon": "calendar", "tone": "saffron" },
-    { "page": "sevas.md", "icon": "hand-heart", "tone": "saffron" }
+    { "page": "volunteer.md", "icon": "volunteer", "tone": "saffron", "$comment": "Volunteer quick link" },
+    { "page": "krishna-mantra-yajna.md", "icon": "lekhana-yajna", "tone": "saffron", "$comment": "Mantra yajna quick link" },
+    { "page": "library.md", "icon": "library", "tone": "saffron", "$comment": "Library quick link" },
+    { "page": "sevas.md", "icon": "seva", "tone": "saffron" }
   ],
   "bottom_carousel": {
     "$comment": "Bottom rail carousel: auto-pools remaining pages from library/pages/*.md (excluding top_carousel pages to prevent duplicates).",
